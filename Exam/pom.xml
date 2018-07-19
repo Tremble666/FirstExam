@@ -14,5 +14,8 @@
         <module>e3</module>
     </modules>
 
-
+    <!-- 设置项目编码 -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>

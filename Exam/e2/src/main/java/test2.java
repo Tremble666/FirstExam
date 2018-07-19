@@ -6,10 +6,10 @@ public class test2 {
         //获取唯一的一个计算类
         caculator c = caculator.getCaculator();
 
-        System.out.println("第二题的答案是:");
-        System.out.println("USERA的税费是:"+ c.caculate(5000));
-        System.out.println("USERB的税费是:"+ c.caculate(10000));
-        System.out.println("USERC的税费是:"+ c.caculate(15000));
-        System.out.println("USERD的税费是:"+ c.caculate(60000));
+        System.out.println("Second:");
+        System.out.println("USERA:"+ c.caculate(5000));
+        System.out.println("USERB:"+ c.caculate(10000));
+        System.out.println("USERC:"+ c.caculate(15000));
+        System.out.println("USERD:"+ c.caculate(60000));
     }
 }

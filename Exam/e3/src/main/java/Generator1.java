@@ -44,7 +44,7 @@ public class Generator1 implements AbstractGenerator{
         }
 
 
-        System.out.println("第一种方式(非java8):");
+        System.out.println("(no java8):");
         for (Integer key : map1.keySet()) {
             System.out.println(key+" ==> "+map1.get(key));
         }

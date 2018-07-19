@@ -1,5 +1,3 @@
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.*;
-
 import java.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -39,7 +37,7 @@ public class Generator2 implements AbstractGenerator {
             map1.put(key,list3);
         }
 
-        System.out.println("第二种方式(java8的stream()):");
+        System.out.println("(java8):");
         for (Integer key : map1.keySet()) {
             System.out.println(key+" ==> "+map1.get(key));
         }

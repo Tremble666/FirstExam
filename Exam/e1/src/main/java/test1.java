@@ -17,9 +17,9 @@ public class test1 {
                 }
             }
         }
-        System.out.println("第一题题目答案是:");
-        System.out.println("在此区间内共有"+res.size()+"个素数");
-        System.out.println("分别是:");
+        System.out.println("First:");
+        System.out.println("All:"+res.size());
+        System.out.println("They are:");
         for (Integer re : res) {
             System.out.println(re+",");
         }
